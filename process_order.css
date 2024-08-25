@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(252, 231, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: rgb(252, 231, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+div {
+    padding: 10px;
+}
+
+table {
+    margin-left: 20px;
+    border-spacing: 10px 0;
+    width: 100%;
+}
+
+#receipt {
+    max-width: 400px;
+    border: 1px dashed #000;
+    padding: 20px;
+    background-color: rgb(252, 244, 251);
+}

@@ -1,0 +1,69 @@
+/* Header */
+header {
+    background-color: rgb(219, 174, 213);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 0px 10px 0px;
+}
+
+h1 {
+    color: rgb(143, 81, 134);
+    text-align: center;
+    text-shadow: 2px 2px rgb(73, 21, 66);
+}
+
+/* Footer */
+footer {
+    background-color: rgb(219, 174, 213);
+    color: rgb(143, 81, 134);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+
+/* Nav Bar */
+nav {
+    background-color: rgb(143, 81, 134);
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(252, 231, 248);
+    text-decoration: none;
+    border-left: 2px solid rgb(252, 231, 248);
+}
+
+nav a:first-child {
+    border-left: none; 
+}
+  
+nav a:hover {
+    background-color: rgb(252, 231, 248);
+    color: rgb(107, 29, 95);
+}
+
+/* Links */
+footer a {
+    text-decoration: none;
+    color: rgb(143, 81, 134);
+}
+
+a#admin {
+    float: right;
+}
+
+nav #welcome {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 231, 248);
+}

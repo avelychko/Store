@@ -1,0 +1,67 @@
+main {
+    background-color: rgb(252, 231, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    padding: 10px;
+}
+
+#picture {
+    position: absolute;
+    top: 150px;
+    right: 12px;
+    width: 200px;
+    height: 300px;
+    max-width: 30%;
+    border: 2px solid rgb(143, 81, 134);
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+fieldset {
+    width: 300px;
+    background-color: rgb(253, 246, 253);
+}
+
+legend {
+    background-color: rgb(143, 81, 134);;
+    color: rgb(252, 231, 248);
+    padding: 3px;
+}
+
+input, select {
+    margin: 5px;
+}
+
+select {
+    width: 200px;
+    text-align: center;
+}
+
+em {
+    color: red;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+input[type="radio"] {
+    color: rgb(73, 21, 66);
+}
+
+input[name="purchase"] {
+    background-color: rgb(143, 81, 134);;
+    color: rgb(252, 231, 248);
+    border: 1px solid rgb(73, 21, 66);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#low_quantity {
+    color: red;
+    text-align: center; 
+    font-weight: bold; 
+}
